@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Problems and Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Math Problems and Solutions</h1>
+
+        <!-- Single Variable Linear Equations -->
+        <h2>Single Variable Linear Equations</h2>
+        <div class="problem">
+            <h3>Problem 1</h3>
+            <p>2x + 3 = 11</p>
+            <button onclick="toggleSolution('solution1')">Show Solution</button>
+            <div id="solution1" class="solution">
+                <p>2x + 3 = 11</p>
+                <p>2x = 11 - 3</p>
+                <p>2x = 8</p>
+                <p>x = 4</p>
+                <p>Solution: x = 4</p>
+            </div>
+        </div>
+
+        <div class="problem">
+            <h3>Problem 2</h3>
+            <p>5x - 7 = 3</p>
+            <button onclick="toggleSolution('solution2')">Show Solution</button>
+            <div id="solution2" class="solution">
+                <p>5x - 7 = 3</p>
+                <p>5x = 3 + 7</p>
+                <p>5x = 10</p>
+                <p>x = 2</p>
+                <p>Solution: x = 2</p>
+            </div>
+        </div>
+
+        <div class="problem">
+            <h3>Problem 3</h3>
+            <p>4x + 6 = 18</p>
+            <button onclick="toggleSolution('solution3')">Show Solution</button>
+            <div id="solution3" class="solution">
+                <p>4x + 6 = 18</p>
+                <p>4x = 18 - 6</p>
+                <p>4x = 12</p>
+                <p>x = 3</p>
+                <p>Solution: x = 3</p>
+            </div>
+        </div>
+
+        <div class="problem">
+            <h3>Problem 4</h3>
+            <p>3x - 5 = 10</p>
+            <button onclick="toggleSolution('solution4')">Show Solution</button>
+            <div id="solution4" class="solution">
+                <p>3x - 5 = 10</p>
+                <p>3x = 10 + 5</p>
+                <p>3x = 15</p>
+                <p>x = 5</p>
+                <p>Solution: x = 5</p>
+            </div>
+        </div>
+
+        <!-- Two Variable Linear Equations -->
+        <h2>Two Variable Linear Equations</h2>
+        <div class="problem">
+            <h3>Problem 1</h3>
+            <p>x + 2y = 7</p>
+            <p>2x - y = 4</p>
+            <button onclick="toggleSolution('solution5')">Show Solution</button>
+            <div id="solution5" class="solution">
+                <p>Step 1: Solve the first equation for x:</p>
+                <p>x = 7 - 2y</p>
+                <p>Step 2: Substitute x into the second equation:</p>
+                <p>2(7 - 2y) - y = 4</p>
+                <p>14 - 4y - y = 4</p>
+                <p>-5y = -10</p>
+                <p>y = 2</p>
+                <p>Step 3: Substitute y back into the first equation:</p>
+                <p>x + 2(2) = 7</p>
+                <p>x + 4 = 7</p>
+                <p>x = 3</p>
+                <p>Solution: x = 3, y = 2</p>
+            </div>
+        </div>
+
+        <div class="problem">
+            <h3>Problem 2</h3>
+            <p>2x + 3y = 35</p>
+            <p>5x + 3y = 65</p>
+            <button onclick="toggleSolution('solution6')">Show Solution</button>
+            <div id="solution6" class="solution">
+                <p>Step 1: Subtract the first equation from the second:</p>
+                <p>(5x + 3y) - (2x + 3y) = 65 - 35</p>
+                <p>3x = 30</p>
+                <p>x = 10</p>
+                <p>Step 2: Substitute x back into the first equation:</p>
+                <p>2(10) + 3y = 35</p>
+                <p>20 + 3y = 35</p>
+                <p>3y = 15</p>
+                <p>y = 5</p>
+                <p>Solution: x = 10, y = 5</p>
+            </div>
+        </div>
+
+        <div class="problem">
+            <h3>Problem 3</h3>
+            <p>4x - y = 11</p>
+            <p>3x + 2y = 18</p>
+            <button onclick="toggleSolution('solution7')">Show Solution</button>
+            <div id="solution7" class="solution">
+                <p>Step 1: Solve the first equation for y:</p>
+                <p>y = 4x - 11</p>
+                <p>Step 2: Substitute y into the second equation:</p>
+                <p>3x + 2(4x - 11) = 18</p>
+                <p>3x + 8x - 22 = 18</p>
+                <p>11x - 22 = 18</p>
+                <p>11x = 40</p>
+                <p>x = 40/11</p>
+                <p>Step 3: Substitute x back into the first equation:</p>
+                <p>4(40/11) - y = 11</p>
+                <p>160/11 - y = 11</p>
+                <p>-y = 11 - 160/11</p>
+                <p>-y = (121 - 160) / 11</p>
+                <p>y = 39/11</p>
+                <p>Solution: x = 40/11, y = 39/11</p>
+            </div>
+        </div>
+
+        <div class="problem">
+            <h3>Problem 4</h3>
+            <p>2x + y = 10</p>
+            <p>3x - y = 5</p>
+            <button onclick="toggleSolution('solution8')">Show Solution</button>
+            <div id="solution8" class="solution">
+                <p>Step 1: Add the two equations:</p>
+                <p>(2x + y) + (3x - y) = 10 + 5</p>
+                <p>5x = 15</p>
+                <p>x = 3</p>
+                <p>Step 2: Substitute x back into the first equation:</p>
+                <p>2(3) + y = 10</p>
+                <p>6 + y = 10</p>
+                <p>y = 4</p>
+                <p>Solution: x = 3, y = 4</p>
+            </div>
+        </div>
+
+        <div class="problem">
+            <h3>Problem 5</h3>
+            <p>4x + 2y = 14</p>
+            <p>3x - y = 5</p>
+            <button onclick="toggleSolution('solution9')">Show Solution</button>
+            <div id="solution9" class="solution">
+                <p>Step 1: Solve the second equation for y:</p>
+                <p>y = 3x - 5</p>
+                <p>Step 2: Substitute y into the first equation:</p>
+                <p>4x + 2(3x - 5) = 14</p>
+                <p>4x + 6x - 10 = 14</p>
+                <p>10x - 10 = 14</p>
+                <p>10x = 24</p>
+                <p>x = 24 / 10</p>
+            </div>
+        </div>
+
+        <div class="problem">
+            <h3>Problem 6</h3>
+            <p>2x + y = 10</p>
+            <p>3x - y = 5</p>
+            <button onclick="toggleSolution('solution10')">Show Solution</button>
+            <div id="solution10" class="solution">
+                <p>Step 1: Add the two equations:</p>
+                <p>(2x + y) + (3x - y) = 10 + 5</p>
+                <p>5x = 15</p>
+                <p>x = 3</p>
+                <p>Step 2: Substitute x back into the first equation:</p>
+                <p>2(3) + y = 10</p>
+                <p>6 + y = 10</p>
+                <p>y = 4</p>
+                <p>Solution: x = 3, y = 4</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
